@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../imagens/plano\ de\ fundo.jpg);
+
+    
+}
+
+menu {
+    background-color: rgba(0, 0, 75, 0.53);
+    color: white;
+    padding: 20px;
+    
+
+}
+
+menu > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-shadow: 5px 5px 0px black;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+menu > ul {
+    background-color: rgba(0, 0, 75, 0.53);
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 0px;
+}
+
+menu > ul > li {
+    color: white;
+    padding-bottom: 1px;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+}
+
+menu > ul > li > a {
+
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    text-shadow: 2px 2px 0px black;
+    padding: 10px;
+}
+
+main{
+    background-color: rgba(255, 255, 255, 0.304);
+    text-align: center;
+}
+
+main > section > h1 {
+    display: inline-block;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.594);
+    margin: auto;
+    padding: 10px;
+}
+
+main > section > p {
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+  
+    
+}
+
+section.projetos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+img {
+    width: 300px;
+    height: 100px;
+    box-sizing: border-box;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 20px;
+    margin: 10px;
+    
+
+
+    
+
+}
